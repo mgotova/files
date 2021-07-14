@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnyConnectProfile xmlns="http://schemas.xmlsoap.org/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/encoding/ AnyConnectProfile.xsd">
+	<ClientInitialization>
+		<UseStartBeforeLogon UserControllable="true">false</UseStartBeforeLogon>
+		<AutomaticCertSelection UserControllable="true">false</AutomaticCertSelection>
+		<ShowPreConnectMessage>false</ShowPreConnectMessage>
+		<CertificateStore>All</CertificateStore>
+		<CertificateStoreOverride>false</CertificateStoreOverride>
+		<ProxySettings>Native</ProxySettings>
+		<AllowLocalProxyConnections>true</AllowLocalProxyConnections>
+		<AuthenticationTimeout>12</AuthenticationTimeout>
+		<AutoConnectOnStart UserControllable="true">true</AutoConnectOnStart>
+		<MinimizeOnConnect UserControllable="true">true</MinimizeOnConnect>
+		<LocalLanAccess UserControllable="true">false</LocalLanAccess>
+		<ClearSmartcardPin UserControllable="true">true</ClearSmartcardPin>
+		<IPProtocolSupport>IPv4,IPv6</IPProtocolSupport>
+		<AutoReconnect UserControllable="false">true
+			<AutoReconnectBehavior UserControllable="false">DisconnectOnSuspend</AutoReconnectBehavior>
+		</AutoReconnect>
+		<AutoUpdate UserControllable="false">true</AutoUpdate>
+		<RSASecurIDIntegration UserControllable="false">Automatic</RSASecurIDIntegration>
+		<WindowsLogonEnforcement>SingleLocalLogon</WindowsLogonEnforcement>
+		<WindowsVPNEstablishment>AllowRemoteUsers</WindowsVPNEstablishment>
+		<AutomaticVPNPolicy>false</AutomaticVPNPolicy>
+		<PPPExclusion UserControllable="false">Disable
+			<PPPExclusionServerIP UserControllable="false"></PPPExclusionServerIP>
+		</PPPExclusion>
+		<EnableScripting UserControllable="false">false</EnableScripting>
+		<EnableAutomaticServerSelection UserControllable="false">false
+			<AutoServerSelectionImprovement>20</AutoServerSelectionImprovement>
+			<AutoServerSelectionSuspendTime>4</AutoServerSelectionSuspendTime>
+		</EnableAutomaticServerSelection>
+		<RetainVpnOnLogoff>false
+		</RetainVpnOnLogoff>
+		<AllowManualHostInput>true</AllowManualHostInput>
+	</ClientInitialization>
+	<ServerList>
+		<HostEntry>
+			<HostName>Austin</HostName>
+			<HostAddress>https://vpn22.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Boston</HostName>
+			<HostAddress>https://vpn7.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Carrollton</HostName>
+			<HostAddress>https://vpn2.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Chicago</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>FortWorth</HostName>
+			<HostAddress>https://vpn2.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Hamilton</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Houston</HostName>
+			<HostAddress>https://vpn3.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Kitchener</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>London</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Milner</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Norfinch</HostName>
+			<HostAddress>https://vpn4.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>NewYork</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Oakdale</HostName>
+			<HostAddress>https://vpn5.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Oshawa</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Ottawa</HostName>
+			<HostAddress>https://vpn6.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Queensway</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>SanAntonio</HostName>
+			<HostAddress>https://vpn2.hts.com</HostAddress>
+		</HostEntry>
+		<HostEntry>
+			<HostName>Sudbury</HostName>
+			<HostAddress>https://vpn8.hts.com</HostAddress>
+		</HostEntry>
+	</ServerList>
+</AnyConnectProfile>
